@@ -11,6 +11,7 @@ nav ul {
     list-style: none;
     padding: 10px;
     background-color: #333333;
+    color: white;
 }
 
 nav a:hover {
@@ -22,7 +23,6 @@ nav a {
     display: block;
     text-align: center;
     padding: 10px;
-    color: white;
     text-decoration: none;
 }
 
@@ -106,6 +106,7 @@ main h1{
     text-align: center;
     padding: 10px;
     font-weight: 300;
+    grid-column: 1 / -1;
 }
 
 main{
@@ -114,9 +115,6 @@ main{
     
 }
 
-main h1 {
-    grid-column: 1 / -1;
-}
 
 section h3{
     padding: 10px;
