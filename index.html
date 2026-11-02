@@ -3,9 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>WDD 131 – Fundamentos da Web Dinâmica - João Souza</title>
+    <meta name="description" content="WDD 131 – Fundamentos da Web Dinâmica. João Vitor Santos de Souza. Estudos de HTML, CSS, JavaScript e desenvolvimento web.">      
+    <meta name="author" content="João Souza">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">    <link rel="stylesheet" href="semana01/estilos/base.css">
+    <script src="semana01/scripts/obterdatas.js" defer></script>
 </head>
+
 <body>
-    <h1>Meu Perfil - João Souza</h1>
+    <header>
+        
+        <span id="titulo-curso">
+            WDD131 – Fundamentos da Web Dinâmica - João Souza
+        </span>
+
+        <nav>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/joaosouza" target="_blank">Linkedin</a></li>
+                <li><a href="https://byupw.instructure.com/" target="_blank">Canvas</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/32?lang=por&id=p16#p16">Escritura</a></li>
+                <li><a href="">Projeto Final</a></li>
+               
+            </ul>
+        </nav>
+    </header>
+
+    
+    <main>
+        <h1>Meu Perfil - João Souza</h1>
+
+        <section class="card">
+            <h2>Sobre mim</h2>
+            <img class="perfil" src="semana01/imagens/joao-perfil.jpg" alt="Foto de João Souza" >
+            <p> Meu nome é João Vitor Santos de Souza e sou apaixonado por tecnologia,
+                    inovação e desenvolvimento. Atualmente, estudo Desenvolvimento de
+                    Software pela BYU-Pathway Worldwide. Também tenho formação acadêmica
+                    em Big Data no Agronegócio pela Fatec Pompéia. Tenho interesse em
+                    programação, desenvolvimento web, eletrônica e soluções tecnológicas.
+                    Gosto de aprender coisas novas, enfrentar desafios e transformar
+                    ideias em projetos práticos. Meu objetivo é aprimorar continuamente
+                    minhas habilidades e construir uma carreira na área de tecnologia.
+        
+            </p>
+
+            <div class="pais">
+                <h3>São Paulo, Brasil</h3>
+
+                <figure>
+                    <img src="semana01/imagens/bandeiranacionalbrasil_.jpg" alt="Bandeira do Brasil" >
+                    
+                    <figcaption>
+                        Bandeira oficial do Brasil
+                    </figcaption>
+                    
+                </figure>
+
+                <p>
+                    O Brasil é o maior país da América do Sul e o quinto maior do mundo em extensão territorial. Está localizado na América do Sul e possui uma das maiores biodiversidades do planeta. Seu território abriga a Floresta Amazônica, o Pantanal e diversos outros ecossistemas. O país é conhecido por sua riqueza natural, diversidade cultural e paisagens que vão desde extensas florestas até belas praias.
+                </p>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Recursos Web Dev</h2>
+            <ul>
+                <li><a href="https://dev.to/" target="_blank">Comunidade Dev.to</a></li>
+                <li><a href="https://www.smashingmagazine.com/" target="_blank">Revista Smashing</a></li>
+                <li><a href="https://css-tricks.com/" target="_blank">CSS Tricks</a></li>
+                <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+                <li><a href="https://www.udemy.com/" target="_blank">Udemy</a></li>
+                <li><a href="https://picsum.photos/">Imagem de Espaço Reservado Lorem Picsum </a></li>   
+                        
+            </ul>    
+                       
+                    
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            &copy; <span id="anoatual"></span> João Souza | Brasil
+        </p>
+
+        <p id="ultimaModificacao"></p>
+    </footer>
+
 </body>
+
 </html>
