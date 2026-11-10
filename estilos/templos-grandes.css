@@ -9,7 +9,6 @@
 
 }
 
-/*computadores*/
 
 /* Tablets */
 @media screen and (min-width: 56.25rem) {
@@ -17,6 +16,7 @@
     .galeria {
         grid-template-columns: repeat(3, 1fr);
     }
+
     header {
         display: flex;
         align-items: center;
@@ -28,9 +28,14 @@
     }
     
     
-    
+    nav {
+    display: flex;
+    justify-content: flex-end;
+    }
+
     
     .navigation {
+        display: flex;
         flex-direction: row;
     }
     
