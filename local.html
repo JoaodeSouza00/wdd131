@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="João Souza">
+    <meta name="description" content="Explore o Brasil e descubra informações sobre sua localização, geografia, clima e características naturais.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="estilos/local.css">
+    <link rel="stylesheet" href="estilos/local-gande.css">
+    <script src="scripts/local.js" defer></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=weather_hail" />
+
+    <title>Brasil | Cultura, Geografia e Clima</title>
+</head>
+<body>
+    <header>
+        <h1>Brasil</h1>
+        <p>Cultura, geografia e clima</p>
+    </header>
+
+
+    <main>
+        <section class="hero">
+        
+            <picture>
+                <source media="(min-width: 800px)" 
+                srcset="imagens/rio-desktop.webp">
+    
+                <img src="imagens/rio-mobile.webp" alt="Imagem do Rio de Janeiro, Brasil" class="imagem-hero">
+    
+            </picture>
+        
+        </section>
+    
+        <section class="informacoes">
+            <h2>Dados</h2>
+            <p>Area: 5,8 milhões de km²</p>
+            <p>População: 214 milhões de habitantes</p>
+            <p>Capital: Brasília</p>
+            <p>Idioma: português</p>
+            <p>Moeda: real (BRL)</p>
+            <p>Fuso horário: UTC-3 (horário de Brasília)</p>
+            <p>Codigo de área: +55</p>
+            <p>Dominio de internet: .br</p>
+    
+        </section>
+    
+        <section class="clima">
+            
+            <h2>Clima</h2>
+            <span class="material-symbols-outlined">weather_hail</span>
+    
+            <p>Temperatura média anual: 24°C</p>
+            <p>Condições: tropicais</p>
+            <p>Vento: moderado</p>
+            <p>Sensação térmica: quente</p> 
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>
+            &copy; <span id="ano-atual"></span>
+            Brasil
+        </p>
+
+        <p>
+            Última modificação:
+            <span id="ultima-modificacao"></span>
+        </p>
+    </footer>
+</body>
+</html>
