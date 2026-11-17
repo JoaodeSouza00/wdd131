@@ -1,0 +1,4 @@
+{
+    "editor.defaultFormatter": "vscode.css-language-features",
+    "notebook.defaultFormatter": "vscode.json-language-features"
+}
