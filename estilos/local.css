@@ -8,6 +8,15 @@ body {
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
     font-family: var(--fonte-textos);
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+main {
+    flex: 1;
 }
 
 header {
