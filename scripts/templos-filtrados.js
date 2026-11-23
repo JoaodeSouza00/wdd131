@@ -4,6 +4,8 @@ const ultimaModificacao = document.querySelector("#ultimaModificacao");
 const hamButton = document.querySelector("#menu");
 const navigation = document.querySelector(".navigation");
 
+const container = document.querySelector("#galeria-de-templos");
+
 // Obtém o ano atual
 anoAtual.textContent = new Date().getFullYear();
 
@@ -100,3 +102,31 @@ const templos = [
   },
   
 ];
+
+
+function createTempleCard(temples) {
+
+    const container = document.querySelector("#galeria-de-templos");
+
+    container.innerHTML = "";
+
+    temples.forEach(temple => {
+
+        container.innerHTML += `
+            <section class="temple-card">
+                <h2>${temple.nomeDoTemplo}</h2>
+                <p>Localização: ${temple.localizacao}</p>
+                <p>Consagração: ${temple.consagracao}</p>
+                <p>Área: ${temple.area} sq ft</p>
+                <img
+                    src="${temple.urlDaImagem}"
+                    alt="Templo ${temple.nomeDoTemplo}"
+                    loading="lazy"
+                >
+            </section>
+        `;
+
+    });
+}
+
+createTempleCard(templos);

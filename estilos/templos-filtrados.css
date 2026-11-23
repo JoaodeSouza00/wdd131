@@ -70,8 +70,8 @@ h1{
 }
 
 
-figcaption {
-    background-color: #17324D;
+.temple-card {
+    background-color: #17324d;
     color: #FFFFFF;
     padding: 0.75rem;
     text-align: center;
