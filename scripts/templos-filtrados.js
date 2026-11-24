@@ -24,7 +24,7 @@ const templos = [
   {
     nomeDoTemplo: "Aba Nigeria",
     localizacao: "Aba, Nigéria",
-    consagracao: "2005, 7 de agosto",
+    consagracao: "07-08-2005",
     area: 11500,
     urlDaImagem:
     "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-273999-wallpaper.jpg"
@@ -32,7 +32,7 @@ const templos = [
   {
     nomeDoTemplo: "Manti Utah",
     localizacao: "Manti, Utah, Estados Unidos",
-    consagracao: "1888, 21 de maio",
+    consagracao: "21-05-1888",
     area: 74792,
     urlDaImagem:
     "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/manti-utah/400x250/manti-temple-768192-wallpaper.jpg"
@@ -40,7 +40,7 @@ const templos = [
   {
     nomeDoTemplo: "Payson Utah",
     localizacao: "Payson, Utah, Estados Unidos",
-    consagracao: "2015, 7 de junho",
+    consagracao: "07-06-2015",
     area: 96630,
     urlDaImagem:
     "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/payson-utah/400x225/payson-utah-temple-exterior-1416671-wallpaper.jpg"
@@ -48,7 +48,7 @@ const templos = [
   {
     nomeDoTemplo: "Yigo Guam",
     localizacao: "Yigo, Guam",
-    consagracao: "2020, 2 de maio",
+    consagracao: "02-05-2020",
     area: 6861,
     urlDaImagem:
     "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/yigo-guam/400x250/yigo_guam_temple_2.jpg"
@@ -56,7 +56,7 @@ const templos = [
   {
     nomeDoTemplo: "Washington D.C.",
     localizacao: "Kensington, Maryland, Estados Unidos",
-    consagracao: "1974, 19 de novembro",
+    consagracao: "19-11-1974",
     area: 156558,
     urlDaImagem:
     "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/washington-dc/400x250/washington_dc_temple-exterior-2.jpeg"
@@ -64,7 +64,7 @@ const templos = [
   {
     nomeDoTemplo: "Lima Peru",
     localizacao: "Lima, Peru",
-    consagracao: "1986, 10 de janeiro",
+    consagracao: "10-01-1986",
     area: 9600,
     urlDaImagem:
     "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/lima-peru/400x250/lima-peru-temple-evening-1075606-wallpaper.jpg"
@@ -72,7 +72,7 @@ const templos = [
   {
     nomeDoTemplo: "Cidade do México, México",
     localizacao: "Cidade do México, México",
-    consagracao: "1983, 2 de dezembro",
+    consagracao: "02-12-1983",
     area: 116642,
     urlDaImagem:
     "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"

@@ -3,7 +3,7 @@
 
 @media screen and (min-width: 37.5rem) {
     
-    .temple-card {
+     #galeria-de-templos {
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -13,7 +13,7 @@
 /* Tablets */
 @media screen and (min-width: 56.25rem) {
     
-    .temple-card {
+     #galeria-de-templos{
         grid-template-columns: repeat(3, 1fr);
     }
 
