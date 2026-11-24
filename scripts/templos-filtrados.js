@@ -22,85 +22,104 @@ hamButton.addEventListener("click", () => {
 
 const templos = [
   {
-    nomeDoTemplo: "Aba Nigeria",
-    localizacao: "Aba, Nigéria",
-    consagracao: "07-08-2005",
-    area: 11500,
+    nomeDoTemplo: "Campinas Brasil",
+    localizacao: "Campinas, São Paulo, Brasil",
+    consagracao: "17-05-2002",
+    anoDeConstrucao: 2002,
+    area: 48100,
     urlDaImagem:
-    "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-273999-wallpaper.jpg"
+      "https://churchofjesuschristtemples.org/assets/img/temples/campinas-brazil-temple/campinas-brazil-temple-6012-main.jpg"
   },
   {
-    nomeDoTemplo: "Manti Utah",
-    localizacao: "Manti, Utah, Estados Unidos",
-    consagracao: "21-05-1888",
-    area: 74792,
+    nomeDoTemplo: "Curitiba Brasil",
+    localizacao: "Curitiba, Paraná, Brasil",
+    consagracao: "01-06-2008",
+    anoDeConstrucao: 2008,
+    area: 27850,
     urlDaImagem:
-    "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/manti-utah/400x250/manti-temple-768192-wallpaper.jpg"
+      "https://churchofjesuschristtemples.org/assets/img/temples/curitiba-brazil-temple/curitiba-brazil-temple-1078-main.jpg"
   },
   {
-    nomeDoTemplo: "Payson Utah",
-    localizacao: "Payson, Utah, Estados Unidos",
-    consagracao: "07-06-2015",
-    area: 96630,
+    nomeDoTemplo: "Fortaleza Brasil",
+    localizacao: "Fortaleza, Ceará, Brasil",
+    consagracao: "02-06-2019",
+    anoDeConstrucao: 2019,
+    area: 36000,
     urlDaImagem:
-    "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/payson-utah/400x225/payson-utah-temple-exterior-1416671-wallpaper.jpg"
+      "https://churchofjesuschristtemples.org/assets/img/temples/fortaleza-brazil-temple/fortaleza-brazil-temple-5569-main.jpg"
   },
   {
-    nomeDoTemplo: "Yigo Guam",
-    localizacao: "Yigo, Guam",
-    consagracao: "02-05-2020",
-    area: 6861,
+    nomeDoTemplo: "Manaus Brasil",
+    localizacao: "Manaus, Amazonas, Brasil",
+    consagracao: "10-06-2012",
+    anoDeConstrucao: 2012,
+    area: 32032,
     urlDaImagem:
-    "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/yigo-guam/400x250/yigo_guam_temple_2.jpg"
+      "https://churchofjesuschristtemples.org/assets/img/temples/_temp/138-Manaus-Brazil-Temple.jpg"
   },
   {
-    nomeDoTemplo: "Washington D.C.",
-    localizacao: "Kensington, Maryland, Estados Unidos",
-    consagracao: "19-11-1974",
-    area: 156558,
+    nomeDoTemplo: "Porto Alegre Brasil",
+    localizacao: "Porto Alegre, Rio Grande do Sul, Brasil",
+    consagracao: "17-12-2000",
+    anoDeConstrucao: 2000,
+    area: 13325,
     urlDaImagem:
-    "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/washington-dc/400x250/washington_dc_temple-exterior-2.jpeg"
+      "https://churchofjesuschristtemples.org/assets/img/temples/porto-alegre-brazil-temple/porto-alegre-brazil-temple-60459-main.jpg"
   },
   {
-    nomeDoTemplo: "Lima Peru",
-    localizacao: "Lima, Peru",
-    consagracao: "10-01-1986",
-    area: 9600,
+    nomeDoTemplo: "Recife Brasil",
+    localizacao: "Recife, Pernambuco, Brasil",
+    consagracao: "15-12-2000",
+    anoDeConstrucao: 2000,
+    area: 37200,
     urlDaImagem:
-    "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/lima-peru/400x250/lima-peru-temple-evening-1075606-wallpaper.jpg"
+      "https://churchofjesuschristtemples.org/assets/img/temples/recife-brazil-temple/recife-brazil-temple-36778-main.jpg"
   },
   {
-    nomeDoTemplo: "Cidade do México, México",
-    localizacao: "Cidade do México, México",
-    consagracao: "02-12-1983",
-    area: 116642,
+    nomeDoTemplo: "São Paulo Brasil",
+    localizacao: "São Paulo, São Paulo, Brasil",
+    consagracao: "30-10-1978",
+    anoDeConstrucao: 1978,
+    area: 59246,
     urlDaImagem:
-    "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
+      "https://churchofjesuschristtemples.org/assets/img/temples/_temp/017-São-Paulo-Brazil-Temple.jpg"
   },
   {
-    nomeDoTemplo: "Natal Brasil",
-    localizacao: "Natal, Rio Grande do Norte, Brasil",
-    consagracao: "Ainda não consagrado",
-    area: 19800,
-    urlDaImagem: "https://churchofjesuschristtemples.org/assets/img/temples/natal-brazil-temple/natal-brazil-temple-45005-main.jpg"
+    nomeDoTemplo: "Belém Brasil",
+    localizacao: "Belém, Pará, Brasil",
+    consagracao: "20-11-2022",
+    anoDeConstrucao: 2022,
+    area: 28675,
+    urlDaImagem:
+      "https://churchofjesuschristtemples.org/assets/img/temples/belem-brazil-temple/belem-brazil-temple-31310-main.jpg"
   },
   {
-    nomeDoTemplo: "Campo Grande Brasil",
-    localizacao: "Campo Grande, Mato Grosso do Sul, Brasil",
-    consagracao: "Ainda não consagrado",
-    area: 11300,
+    nomeDoTemplo: "Brasília Brasil",
+    localizacao: "Brasília, Distrito Federal, Brasil",
+    consagracao: "17-09-2023",
+    anoDeConstrucao: 2023,
+    area: 25000,
     urlDaImagem:
-      "https://churchofjesuschristtemples.org/assets/img/temples/campo-grande-brazil-temple/campo-grande-brazil-temple-75521-main.jpg"
+      "https://churchofjesuschristtemples.org/assets/img/temples/brasilia-brazil-temple/brasilia-brazil-temple-39184-main.jpg"
   },
   {
-    nomeDoTemplo: "Goiânia Brasil",
-    localizacao: "Goiânia, Goiás, Brasil",
-    consagracao: "Ainda não consagrado",
-    area: 18850,
+    nomeDoTemplo: "Rio de Janeiro Brasil",
+    localizacao: "Rio de Janeiro, Rio de Janeiro, Brasil",
+    consagracao: "08-05-2022",
+    anoDeConstrucao: 2022,
+    area: 29966,
     urlDaImagem:
-      "https://churchofjesuschristtemples.org/assets/img/temples/goiania-brazil-temple/goiania-brazil-temple-75522-main.jpg"
+      "https://churchofjesuschristtemples.org/assets/img/temples/rio-de-janeiro-brazil-temple/rio-de-janeiro-brazil-temple-8167-main.jpg"
   },
-  
+  {
+    nomeDoTemplo: "Salvador Brasil",
+    localizacao: "Salvador, Bahia, Brasil",
+    consagracao: "20-10-2024",
+    anoDeConstrucao: 2024,
+    area: 29963,
+    urlDaImagem:
+      "https://churchofjesuschristtemples.org/assets/img/temples/salvador-brazil-temple/salvador-brazil-temple-51668-main.jpg"
+  },
 ];
 
 
