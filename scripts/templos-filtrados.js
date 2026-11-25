@@ -22,103 +22,103 @@ hamButton.addEventListener("click", () => {
 
 const templos = [
   {
-    nomeDoTemplo: "Campinas Brasil",
-    localizacao: "Campinas, São Paulo, Brasil",
-    consagracao: "17-05-2002",
-    anoDeConstrucao: 2002,
-    area: 48100,
+    nomeDoTemplo: "Manti Utah",
+    localizacao: "Manti, Utah, Estados Unidos",
+    consagracao: "17-05-1888",
+    anoDeConstrucao: 1888,
+    area: 74792,
     urlDaImagem:
-      "https://churchofjesuschristtemples.org/assets/img/temples/campinas-brazil-temple/campinas-brazil-temple-6012-main.jpg"
+      "https://churchofjesuschristtemples.org/assets/img/temples/manti-utah-temple/manti-utah-temple-40551-main.jpg"
   },
   {
-    nomeDoTemplo: "Curitiba Brasil",
-    localizacao: "Curitiba, Paraná, Brasil",
-    consagracao: "01-06-2008",
-    anoDeConstrucao: 2008,
-    area: 27850,
+    nomeDoTemplo: "Payson Utah",
+    localizacao: "Payson, Utah, Estados Unidos",
+    consagracao: "07-06-2015",
+    anoDeConstrucao: 2015,
+    area: 96630,
     urlDaImagem:
-      "https://churchofjesuschristtemples.org/assets/img/temples/curitiba-brazil-temple/curitiba-brazil-temple-1078-main.jpg"
+      "https://churchofjesuschristtemples.org/assets/img/temples/payson-utah-temple/payson-utah-temple-62834-main.jpg"
   },
   {
-    nomeDoTemplo: "Fortaleza Brasil",
-    localizacao: "Fortaleza, Ceará, Brasil",
-    consagracao: "02-06-2019",
-    anoDeConstrucao: 2019,
-    area: 36000,
+    nomeDoTemplo: "Washington D.C.",
+    localizacao: "Kensington, Maryland, Estados Unidos",
+    consagracao: "19-11-1974",
+    anoDeConstrucao: 1974,
+    area: 156558,
     urlDaImagem:
-      "https://churchofjesuschristtemples.org/assets/img/temples/fortaleza-brazil-temple/fortaleza-brazil-temple-5569-main.jpg"
+      "https://churchofjesuschristtemples.org/assets/img/temples/washington-d.c.-temple/washington-d.c.-temple-14992-main.jpg"
   },
   {
-    nomeDoTemplo: "Manaus Brasil",
-    localizacao: "Manaus, Amazonas, Brasil",
-    consagracao: "10-06-2012",
-    anoDeConstrucao: 2012,
-    area: 32032,
+    nomeDoTemplo: "Provo City Center Utah",
+    localizacao: "Provo, Utah, Estados Unidos",
+    consagracao: "20-03-2016",
+    anoDeConstrucao: 2016,
+    area: 85084,
     urlDaImagem:
-      "https://churchofjesuschristtemples.org/assets/img/temples/_temp/138-Manaus-Brazil-Temple.jpg"
+      "https://churchofjesuschristtemples.org/assets/img/temples/provo-city-center-temple/provo-city-center-temple-56386-main.jpg"
   },
   {
-    nomeDoTemplo: "Porto Alegre Brasil",
-    localizacao: "Porto Alegre, Rio Grande do Sul, Brasil",
-    consagracao: "17-12-2000",
-    anoDeConstrucao: 2000,
-    area: 13325,
+    nomeDoTemplo: "Los Angeles California",
+    localizacao: "Los Angeles, Califórnia, Estados Unidos",
+    consagracao: "11-03-1956",
+    anoDeConstrucao: 1956,
+    area: 190614,
     urlDaImagem:
-      "https://churchofjesuschristtemples.org/assets/img/temples/porto-alegre-brazil-temple/porto-alegre-brazil-temple-60459-main.jpg"
+      "https://churchofjesuschristtemples.org/assets/img/temples/los-angeles-california-temple/los-angeles-california-temple-38945-main.jpg"
   },
   {
-    nomeDoTemplo: "Recife Brasil",
-    localizacao: "Recife, Pernambuco, Brasil",
-    consagracao: "15-12-2000",
-    anoDeConstrucao: 2000,
-    area: 37200,
+    nomeDoTemplo: "San Diego California",
+    localizacao: "San Diego, Califórnia, Estados Unidos",
+    consagracao: "25-04-1993",
+    anoDeConstrucao: 1993,
+    area: 58005,
     urlDaImagem:
-      "https://churchofjesuschristtemples.org/assets/img/temples/recife-brazil-temple/recife-brazil-temple-36778-main.jpg"
+      "https://churchofjesuschristtemples.org/assets/img/temples/san-diego-california-temple/san-diego-california-temple-9060-main.jpg"
   },
   {
-    nomeDoTemplo: "São Paulo Brasil",
-    localizacao: "São Paulo, São Paulo, Brasil",
-    consagracao: "30-10-1978",
-    anoDeConstrucao: 1978,
-    area: 59246,
+    nomeDoTemplo: "Dallas Texas",
+    localizacao: "Dallas, Texas, Estados Unidos",
+    consagracao: "19-10-1984",
+    anoDeConstrucao: 1984,
+    area: 44207,
     urlDaImagem:
-      "https://churchofjesuschristtemples.org/assets/img/temples/_temp/017-São-Paulo-Brazil-Temple.jpg"
+      "https://churchofjesuschristtemples.org/assets/img/temples/dallas-texas-temple/dallas-texas-temple-55240-main.jpg"
   },
   {
-    nomeDoTemplo: "Belém Brasil",
-    localizacao: "Belém, Pará, Brasil",
-    consagracao: "20-11-2022",
-    anoDeConstrucao: 2022,
-    area: 28675,
+    nomeDoTemplo: "Atlanta Georgia",
+    localizacao: "Atlanta, Geórgia, Estados Unidos",
+    consagracao: "01-06-1983",
+    anoDeConstrucao: 1983,
+    area: 34500,
     urlDaImagem:
-      "https://churchofjesuschristtemples.org/assets/img/temples/belem-brazil-temple/belem-brazil-temple-31310-main.jpg"
+      "https://churchofjesuschristtemples.org/assets/img/temples/atlanta-georgia-temple/atlanta-georgia-temple-13940-main.jpg"
   },
   {
-    nomeDoTemplo: "Brasília Brasil",
-    localizacao: "Brasília, Distrito Federal, Brasil",
-    consagracao: "17-09-2023",
-    anoDeConstrucao: 2023,
-    area: 25000,
+    nomeDoTemplo: "Mesa Arizona",
+    localizacao: "Mesa, Arizona, Estados Unidos",
+    consagracao: "23-10-1927",
+    anoDeConstrucao: 1927,
+    area: 75000,
     urlDaImagem:
-      "https://churchofjesuschristtemples.org/assets/img/temples/brasilia-brazil-temple/brasilia-brazil-temple-39184-main.jpg"
+      "https://churchofjesuschristtemples.org/assets/img/temples/mesa-arizona-temple/mesa-arizona-temple-46561-main.jpg"
   },
   {
-    nomeDoTemplo: "Rio de Janeiro Brasil",
-    localizacao: "Rio de Janeiro, Rio de Janeiro, Brasil",
-    consagracao: "08-05-2022",
-    anoDeConstrucao: 2022,
-    area: 29966,
+    nomeDoTemplo: "Portland Oregon",
+    localizacao: "Lake Oswego, Oregon, Estados Unidos",
+    consagracao: "19-08-1989",
+    anoDeConstrucao: 1989,
+    area: 80500,
     urlDaImagem:
-      "https://churchofjesuschristtemples.org/assets/img/temples/rio-de-janeiro-brazil-temple/rio-de-janeiro-brazil-temple-8167-main.jpg"
+      "https://churchofjesuschristtemples.org/assets/img/temples/portland-oregon-temple/portland-oregon-temple-1629-main.jpg"
   },
   {
-    nomeDoTemplo: "Salvador Brasil",
-    localizacao: "Salvador, Bahia, Brasil",
-    consagracao: "20-10-2024",
-    anoDeConstrucao: 2024,
-    area: 29963,
+    nomeDoTemplo: "Gilbert Arizona",
+    localizacao: "Gilbert, Arizona, Estados Unidos",
+    consagracao: "02-03-2014",
+    anoDeConstrucao: 2014,
+    area: 85326,
     urlDaImagem:
-      "https://churchofjesuschristtemples.org/assets/img/temples/salvador-brazil-temple/salvador-brazil-temple-51668-main.jpg"
+      "https://churchofjesuschristtemples.org/assets/img/temples/gilbert-arizona-temple/gilbert-arizona-temple-3802-main.jpg"
   },
 ];
 
@@ -165,7 +165,7 @@ function filterTemples(category) {
     }
 
     else if (category === "grandes") {
-        filteredTemples = templos.filter(temple => temple.area > 10000);
+        filteredTemples = templos.filter(temple => temple.area > 90000);
     }
 
     else if(category ==="novos"){
@@ -177,3 +177,19 @@ function filterTemples(category) {
 
     createTempleCard(filteredTemples);
 }
+
+const filterLinks = document.querySelectorAll(".navigation a");
+
+filterLinks.forEach(link => {
+
+    link.addEventListener("click", event => {
+
+        event.preventDefault();
+
+        const category = link.dataset.filter;
+
+        filterTemples(category);
+
+    });
+
+});
