@@ -149,3 +149,31 @@ function createTempleCard(temples) {
 }
 
 createTempleCard(templos);
+
+
+
+function filterTemples(category) {
+
+    let filteredTemples = [];
+
+    if (category === "todos") {
+        filteredTemples = templos;
+    }
+
+    else if (category === "pequenos") {
+        filteredTemples = templos.filter(temple => temple.area < 10000);
+    }
+
+    else if (category === "grandes") {
+        filteredTemples = templos.filter(temple => temple.area > 10000);
+    }
+
+    else if(category ==="novos"){
+        filteredTemples = templos.filter(temple => temple.anoDeConstrucao > 2000)
+    }
+    else if(category ==="antigos"){
+        filteredTemples = templos.filter(temple => temple.anoDeConstrucao < 1900)
+    }
+
+    createTempleCard(filteredTemples);
+}
