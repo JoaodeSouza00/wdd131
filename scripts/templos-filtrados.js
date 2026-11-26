@@ -120,6 +120,24 @@ const templos = [
     urlDaImagem:
       "https://churchofjesuschristtemples.org/assets/img/temples/gilbert-arizona-temple/gilbert-arizona-temple-3802-main.jpg"
   },
+  {
+    nomeDoTemplo: "Yigo Guam",
+    localizacao: "Yigo, Guam, Estados Unidos",
+    consagracao: "22-05-2022",
+    anoDeConstrucao: 2022,
+    area: 6861,
+    urlDaImagem:
+      "https://churchofjesuschristtemples.org/assets/img/temples/yigo-guam-temple/yigo-guam-temple-26495-main.jpg"
+  },
+  {
+    nomeDoTemplo: "Colonia Juárez Chihuahua México",
+    localizacao: "Colonia Juárez, Chihuahua, México",
+    consagracao: "06-03-1999",
+    anoDeConstrucao: 1999,
+    area: 6800,
+    urlDaImagem:
+      "https://churchofjesuschristtemples.org/assets/img/temples/colonia-juarez-chihuahua-mexico-temple/colonia-juarez-chihuahua-mexico-temple-1601-main.jpg"
+  },
 ];
 
 
