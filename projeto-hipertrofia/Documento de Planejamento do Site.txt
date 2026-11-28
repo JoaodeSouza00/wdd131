@@ -1,0 +1,93 @@
+# Documento de Planejamento do Site
+## Guia de Hipertrofia: Suplementação e Nutrição
+
+### 1. Nome do site
+
+**Guia de Hipertrofia**
+
+O nome foi escolhido por representar diretamente a finalidade do site: reunir informações sobre hipertrofia muscular, suplementação e nutrição em um único ambiente, facilitando a consulta e a compreensão dos visitantes.
+
+### 2. Finalidade do site
+
+O site tem como finalidade fornecer informações introdutórias sobre hipertrofia muscular, suplementação e nutrição.
+
+O conteúdo será organizado em três páginas:
+
+- **Início:** apresentação do projeto e acesso aos principais conteúdos.
+- **Suplementação:** informações sobre Whey Protein, Creatina e Albumina, incluindo suas características e um comparativo entre os suplementos.
+- **Hipertrofia:** explicação sobre hipertrofia muscular, treinamento, alimentação e recuperação, além de uma calculadora interativa.
+
+A calculadora apresentará estimativas de ingestão diária de proteínas, creatina e água, utilizando informações fornecidas pelo visitante, como peso, altura, idade e nível de atividade física. Os resultados serão informativos e não substituirão orientações profissionais.
+
+### 3. Cenários dos visitantes
+
+**Cenário 1**
+
+Quais são as diferenças entre Whey Protein, Creatina e Albumina, e qual é a finalidade de cada suplemento?
+
+**Cenário 2**
+
+Quanto de proteína devo consumir diariamente considerando meu peso corporal?
+
+### 4. Esquema de cores
+
+A identidade visual utilizará três cores principais:
+
+| Cor   | Código         | Aplicação |
+| Preto | #171717 | Cabeçalho, navegação e títulos |
+| Vermelho | #D62828 | Botões, destaques e elementos interativos |
+| Branco | #FFFFFF | Fundo e áreas de conteúdo |
+
+A combinação busca transmitir uma identidade visual esportiva, objetiva e relacionada ao universo da musculação.
+
+### 5. Tipografia
+
+Serão utilizadas duas famílias tipográficas:
+
+- **Montserrat:** títulos, subtítulos e chamadas de destaque.
+- **Roboto:** parágrafos, descrições e informações gerais.
+
+A combinação proporciona uma hierarquia visual clara e facilita a leitura do conteúdo.
+
+### 6. Wireframes
+
+O planejamento visual contempla três páginas, com representações para dispositivos móveis e desktops.
+
+**6.1. Página inicial — Início**
+
+Estrutura:
+- Cabeçalho com nome do site e navegação.
+- Banner principal com título, descrição e acesso à calculadora.
+- Cards de acesso à Suplementação, Hipertrofia e Calculadora.
+- Seção de benefícios.
+- Rodapé.
+
+**Wireframes obrigatórios para a entrega S05:**
+- Wireframe mobile da página inicial.
+- Wireframe desktop da página inicial.
+
+**6.2. Página de Suplementação**
+
+Estrutura:
+- Cabeçalho e navegação.
+- Banner introdutório.
+- Cards de Whey Protein, Creatina e Albumina.
+- Tabela comparativa dos suplementos.
+- Rodapé.
+
+**6.3. Página de Hipertrofia**
+
+Estrutura:
+- Cabeçalho e navegação.
+- Introdução à hipertrofia muscular.
+- Seção sobre treinamento, alimentação e recuperação.
+- Área de acesso à calculadora de estimativas.
+- Rodapé.
+
+Os wireframes das páginas de Suplementação e Hipertrofia são complementares ao planejamento e não substituem os dois wireframes obrigatórios da Home Page.
+
+### 7. Identidade visual e organização
+
+O projeto seguirá uma identidade visual consistente nas três páginas, mantendo a mesma navegação, paleta de cores e tipografia.
+
+A organização será responsiva, adaptando a disposição dos elementos para dispositivos móveis e telas maiores.
